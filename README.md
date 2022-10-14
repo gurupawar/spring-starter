@@ -11,34 +11,33 @@
 ### Jasper dependency
 
 ``
+
+```
 <dependency>
 <groupId>org.apache.tomcat.embed</groupId>
 <artifactId>tomcat-embed-jasper</artifactId>
 <scope>provided</scope>
 </dependency>
-
-```
-
 ```
 
 ### add version in mysql dependency
 
 ``
+
+```
 <dependency>
 <groupId>mysql</groupId>
 <artifactId>mysql-connector-java</artifactId>
 <scope>runtime</scope>
 <version>5.1.6</version>
 </dependency>
-
-```
-
 ```
 
 # Application.properties
 
 ``
 
+```
 ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 
 spring.datasource.url = jdbc:mysql://localhost:3306/test
@@ -59,9 +58,6 @@ spring.jackson.serialization.fail-on-empty-beans=false
 
 spring.mvc.view.prefix=/WEB-INF/
 spring.mvc.view.suffix=.jsp
-
-```
-
 ```
 
 ## starter dependency for Rest API -
@@ -74,6 +70,8 @@ spring.mvc.view.suffix=.jsp
 ### add version in mysql dependency
 
 ``
+
+```
 <dependency>
 <groupId>mysql</groupId>
 <artifactId>mysql-connector-java</artifactId>
@@ -83,12 +81,11 @@ spring.mvc.view.suffix=.jsp
 
 ```
 
-```
-
 # Application.properties
 
 ``
 
+```
 ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 
 spring.datasource.url = jdbc:mysql://localhost:3306/test
@@ -106,7 +103,5 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDial
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jackson.serialization.fail-on-empty-beans=false
-
-```
 
 ```
